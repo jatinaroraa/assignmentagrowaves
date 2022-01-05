@@ -1,0 +1,109 @@
+.maindrop{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* width: fit-content; */
+    height: fit-content;
+}
+#icon{
+    margin-left: 8px;
+}
+.dropdown{
+    /* background-color: blue; */
+    border: 1px solid blue;
+    height: 8vh;
+    /* margin-left: 2px; */
+    width: fit-content;
+    padding: 0px 2px;
+
+    /* padding: 5px; */
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.drop{
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    /* align-items: center; */
+
+    /* justify-content: center; */
+}
+#p1{
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0px;
+    padding: 0px;
+}
+#p{
+    font-size: 14px;
+    font-weight: 200;
+    margin: 0px;
+    padding: 0px;
+
+
+}
+.dropcomp{
+    padding-top: 2px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    height: fit-content;
+}
+.currencyconvert{
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    margin-top: 10vh;
+    /* margin-left: 20vw; */
+    /* height: 20vh; */
+}
+.input{
+    width: 50vw;
+    height: 7vh;
+}
+@media (max-width:600px) {
+    .input{
+        width: 100vw;
+        height: 7vh;
+    }
+    .currencyconvert{
+        display: flex;
+        flex-direction: column;
+       align-items: flex-end;
+       padding: 0px 5vw 0px 5vw;
+    }
+   .drop{
+       width: fit-content;
+       height: fit-content;
+   }
+   #country{
+       margin: 0px;
+   }
+    
+}
+@media (max-width:1000px) {
+    .input{
+        width: 70vw;
+    }
+    
+}
+.amount p{
+    margin: 0px;
+    margin-right: 5px;
+}
+.amount{
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}

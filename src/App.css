@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+.currency{
+  display: flex;
+  flex-direction: column;
+ align-items: center;
+}
+
+#heading{
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
